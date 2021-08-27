@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64731d37.chunk.css",
+    "main.js": "/static/js/main.b9b43a04.chunk.js",
+    "main.js.map": "/static/js/main.b9b43a04.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a7fd23c6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a7fd23c6.js.map",
+    "static/css/2.825b6c0b.chunk.css": "/static/css/2.825b6c0b.chunk.css",
+    "static/js/2.c31bf3c5.chunk.js": "/static/js/2.c31bf3c5.chunk.js",
+    "static/js/2.c31bf3c5.chunk.js.map": "/static/js/2.c31bf3c5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.825b6c0b.chunk.css.map": "/static/css/2.825b6c0b.chunk.css.map",
+    "static/css/main.64731d37.chunk.css.map": "/static/css/main.64731d37.chunk.css.map",
+    "static/js/2.c31bf3c5.chunk.js.LICENSE.txt": "/static/js/2.c31bf3c5.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/static/media/Poppins-SemiBold.cce5625b.ttf",
+    "static/media/login.module.css": "/static/media/fundo-inicial.25a956ee.png",
+    "static/media/logo.6bdeb108.png": "/static/media/logo.6bdeb108.png",
+    "static/media/pin.fa599afc.svg": "/static/media/pin.fa599afc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7fd23c6.js",
+    "static/css/2.825b6c0b.chunk.css",
+    "static/js/2.c31bf3c5.chunk.js",
+    "static/css/main.64731d37.chunk.css",
+    "static/js/main.b9b43a04.chunk.js"
+  ]
+}

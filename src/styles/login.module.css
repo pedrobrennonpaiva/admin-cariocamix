@@ -1,0 +1,74 @@
+
+@import './app.css';
+
+.div_full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/fundo-inicial.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_login {
+    border: 0px !important;
+    border-radius: 20px !important;
+    width: 310px;
+    min-width: 200px;
+    max-width: 310px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img_logo {
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.form_group_login {
+    margin-bottom: 20px;
+}
+
+.form_label_login {
+    font-family: var(--font-bold);
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.form_label_login:hover {
+    cursor: pointer;
+    color: var(--color-secondary);
+}
+
+.form_control_login {
+    border: 1px solid var(--color-secondary);
+    border-radius: 0px;
+}
+
+.form_control_login:hover {
+    border: 1px solid var(--color-primary);
+}
+
+.btn_login {
+    border: 0px;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 0px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.btn_login:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.h_registration {
+    font-family: var(--font-bold);
+    text-transform: uppercase;
+    color: var(--color-primary);
+}

@@ -1,0 +1,37 @@
+
+@import "./app.css";
+
+.header {
+    padding: 10px;
+    background-color: var(--color-black);
+    margin-bottom: 40px;
+}
+
+.navbar_brand {
+    padding: 0px !important;
+}
+
+.img_logo {
+    width: 90px;
+}
+
+.nav_link {
+    background-color: var(--color-black) !important;
+    color: var(--color-primary) !important;
+    border: none !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+}
+
+.nav_link:hover {
+    color: var(--color-secondary) !important;
+}
+
+.span_admin_store {
+    color: var(--color-secondary);
+}

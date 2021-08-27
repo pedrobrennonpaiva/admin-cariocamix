@@ -1,0 +1,57 @@
+
+@import './app.css';
+
+@media screen and (max-width: 768px) {
+    .div_btns {
+        flex-direction: column !important;
+    }
+}
+
+.div_btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_add {
+    white-space: nowrap;
+}
+
+.table thead {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.table thead th {
+    border-top: 1px solid var(--color-primary) !important;
+    border-bottom: 1px solid var(--color-primary) !important;
+}
+
+.header_prod {
+    background-color: var(--color-secondary) !important;
+    border-bottom: none !important;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.span_header_prod {
+    flex: 1;
+}
+
+.icon_header_top {
+    margin-top: -5px;
+}
+
+.icon_header_bottom {
+    margin-bottom: -5px;
+}
+
+.img_table {
+    width: 50px;
+    height: 50px;
+}
+
+.text_secondary {
+    color: var(--color-gray-medium);
+}

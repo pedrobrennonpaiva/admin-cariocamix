@@ -1,0 +1,64 @@
+
+@import './app.css';
+
+@media screen and (max-width: 768px)
+{
+    .h_home {
+        font-size: 35px !important;
+    }
+}
+
+.div_home {
+    background: var(--color-background);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.h_home {
+    font-family: var(--font-bold);
+    font-size: 50px;
+    color: var(--color-primary);
+    margin-bottom: 20px !important;
+}
+
+.div_row_menu {
+    margin-top: 50px;
+}
+
+.card_menu {
+    min-width: 200px !important;
+    max-width: 200px !important;
+    min-height: 100px !important;
+    max-height: 100px !important;
+    border: none;
+    border-radius: 15px !important;
+    background: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    font-family: var(--font-bold);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card_menu:hover {
+    box-shadow: none;
+    background: var(--color-secondary) !important;
+    color: var(--color-primary);
+}
+
+.card_body_menu {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon_menu {
+    font-size: 20px !important;
+}

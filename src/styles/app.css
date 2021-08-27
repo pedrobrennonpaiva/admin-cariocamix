@@ -1,0 +1,224 @@
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('../assets/fonts/Poppins-Bold.ttf'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/Poppins-Bold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/Poppins-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/Poppins-Bold.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/Poppins-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/Poppins-Bold.ttf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../assets/fonts/Poppins-SemiBold.ttf'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/Poppins-SemiBold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/Poppins-SemiBold.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/Poppins-SemiBold.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/Poppins-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/Poppins-SemiBold.ttf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../assets/fonts/Poppins-Medium.ttf'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/Poppins-Medium.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/Poppins-Medium.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/Poppins-Medium.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/Poppins-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/Poppins-Medium.ttf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../assets/fonts/Poppins-Regular.ttf'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/Poppins-Regular.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/Poppins-Regular.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/Poppins-Regular.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/Poppins-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/Poppins-Regular.ttf') format('svg'); /* Legacy iOS */
+}
+
+
+:root {
+    --color-primary: #db5201;
+    --color-secondary: #FFBB0E;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray-dark: #373737;
+    --color-gray-medium-dark: #696667;
+    --color-gray-medium: #737a8d;
+    --color-gray: #f9f9f9;
+    --color-overlay: 'rgba(56, 56, 56, 0.05)';
+    --color-overlay100: 'rgba(56, 56, 56, 0.1)';
+    --color-highlight: '#aaaaaa';
+    --color-input: '#e9e9e9';
+    --color-background: '#f9f9f9';
+    --color-line: '#991F36';
+    --color-on: '#28aa00';
+
+    --font-primary: 'PoppinsRegular', sans-serif !important;
+    --font-secondary: 'PoppinsMedium', sans-serif !important;
+    --font-bold: 'PoppinsBold', sans-serif !important;
+    --font-semibold: 'PoppinsSemiBold', sans-serif !important;
+
+    font-family: 'PoppinsRegular', sans-serif !important;
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+.div-root {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-flow: column;
+    padding-bottom: 40px;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.alert {
+    padding: 10px;
+}
+
+.alert-message {
+    position: fixed !important;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+    z-index: 99999999;
+    border: none !important;
+    color: white !important;
+}
+
+.alert-success {
+    background-color: #46a049 !important;
+}
+
+.alert-danger {
+    background-color: #EF4051 !important;
+}
+
+.close {
+    color: white !important;
+    opacity: 1 !important;
+    border: none !important;
+    background: none !important;
+}
+
+.nav_link.active {
+    background: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    border-radius: 10px !important;
+}
+
+.nav_link {
+    background-color: var(--color-white) !important;
+    color: var(--color-primary) !important;
+    border: none !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+}
+
+.nav_link:hover {
+    color: var(--color-secondary) !important;
+}
+
+.color_primary {
+    color: var(--color-primary) !important;
+}
+
+.navbar-toggler {
+    font-size: 1rem !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.title {
+    font-family: var(--font-bold);
+    color: var(--color-primary);
+    margin-bottom: 20px !important;
+}
+
+.button {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+.button:hover {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+a.nav-item.nav-link.active {
+    color: var(--color-primary);
+}
+
+a.nav-item.nav-link {
+    color: var(--color-secondary);
+}
+
+.btn_file_curr {
+    background-color: var(--color-secondary) !important;
+    color: var(--color-primary) !important;
+    border: 0 !important;
+    float: left;
+}
+
+.div_file_curr {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 700px !important;
+    }
+}
+
+/* custom scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-gray-medium-dark);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gray-medium-dark); 
+}

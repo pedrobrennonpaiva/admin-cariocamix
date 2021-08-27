@@ -1,0 +1,24 @@
+
+@import './app.css';
+
+@media only screen and (max-width: 768px) {
+
+    .div_footer p {
+        font-size: 12px !important;
+    }
+}
+
+.div_footer {
+    background: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.div_footer p {
+    margin-bottom: 0px !important;
+    font-size: 14px;
+}

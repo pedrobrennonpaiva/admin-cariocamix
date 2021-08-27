@@ -1,0 +1,70 @@
+
+@import './app.css';
+
+@media screen and (max-width: 768px) {
+    .div_btns {
+        flex-direction: column !important;
+    }
+}
+
+.div_btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_add {
+    white-space: nowrap;
+}
+
+.table td {
+    border-top: 1px solid var(--color-primary) !important;
+}
+
+.table thead {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.table thead th {
+    border-top: 1px solid var(--color-primary) !important;
+    border-bottom: 1px solid var(--color-primary) !important;
+}
+
+.inputHourMinute {
+    max-width: 70px;
+}
+
+.selectDayWeek {
+    flex: 1;
+}
+
+/* .pageMap {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-map .map-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: none;
+}
+  
+.page-map .map-popup .leaflet-popup-content h3 {
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 12px;
+}
+  
+.page-map .map-popup .leaflet-popup-content p {
+    color: #042f38;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 8px 12px;
+    line-height: 15px;
+}
+  
+.page-map .map-popup .leaflet-popup-tip-container {
+    display: none;
+} */
+
